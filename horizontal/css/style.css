@@ -1,0 +1,45 @@
+* {margin: 0; padding: 0; user-select: none;}
+li.top-menu
+{
+	position: relative;
+}
+
+ul li, ul li a 
+{
+	display: inline-block;
+	
+}
+
+ul
+{
+	text-align: right;
+	background-color: black;
+	padding-top: 10px;
+	
+}
+
+ul li a 
+{
+	padding: 10px;
+	text-decoration: none;
+	font-family: "Lucida Console";
+	font-size: 30px;
+	color: white;
+}
+
+ul li a:hover, .active
+{
+	color: black;
+	background-color: gray;
+}
+ul.sub-menu
+{
+	border: 1px solid white;
+	position: absolute;
+	top: 37px;
+	left: 5px;
+}
+ul.sub-menu li
+{
+	display: block;
+}
